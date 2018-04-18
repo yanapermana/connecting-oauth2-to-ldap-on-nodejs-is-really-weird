@@ -1,0 +1,26 @@
+{
+  "name": "node-oauth2-server-example",
+  "version": "1.1.0",
+  "description": "Working oauth2 server with minimal configuration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedroetb/node-oauth2-server-example"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Pedro Trujillo",
+  "contributors": [
+    {
+      "name": "Pedro Trujillo",
+      "email": "pedroetb@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "oauth2-server": "^2.4.1"
+  }
+}
