@@ -109,3 +109,6 @@ For example, using `curl`:
 curl http://localhost:3000 \
   -H "Authorization: Bearer 72ab415822b56cf0f9f93f07fe978d9aae859325"
 ```
+
+# Notes
+Once token generated, the problem was can not generate new token again.
